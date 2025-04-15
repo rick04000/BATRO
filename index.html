@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BATRO - Specialist in transport-koelinstallaties, airconditioning en laadkleppen voor personen- en vrachtwagens.">
+    <title>BATRO - Koeltechniek & Transportkoeling</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <!-- Header & Navigatie -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <div class="logo-container">
+                <a href="index.html" class="logo">
+                    <img src="IMG\batro-logo_smaller.png" alt="BATRO Logo" class="logo-img">
+                </a>
+                <p class="tagline">Aircondioning - Koeltechniek - Transportkoeling</p>
+            </div>
+            
+            <nav class="nav-desktop">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#diensten" class="nav-link">Diensten</a></li>
+                    <li class="nav-item"><a href="#over-ons" class="nav-link">Over Ons</a></li>
+                    <li class="nav-item"><a href="#geschiedenis" class="nav-link">Geschiedenis</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item cta-item"><a href="#contact" class="btn btn-primary btn-header">Direct contact</a></li>
+                </ul>
+            </nav>
+            
+            <button class="menu-toggle" aria-label="Menu openen">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+        
+        <nav class="nav-mobile">
+            <ul class="nav-mobile-list">
+                <li class="nav-mobile-item"><a href="#" class="nav-mobile-link active">Home</a></li>
+                <li class="nav-mobile-item"><a href="#diensten" class="nav-mobile-link">Diensten</a></li>
+                <li class="nav-mobile-item"><a href="#over-ons" class="nav-mobile-link">Over Ons</a></li>
+                <li class="nav-mobile-item"><a href="#geschiedenis" class="nav-mobile-link">Geschiedenis</a></li>
+                <li class="nav-mobile-item"><a href="#contact" class="nav-mobile-link">Contact</a></li>
+                <li class="nav-mobile-item cta-mobile-item"><a href="#contact" class="btn btn-primary btn-mobile">Direct contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Sectie -->
+    <section class="hero" id="hero">
+        <div class="hero-video-container">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="videos/batro-hero.mp4" type="video/mp4">
+                <!-- Fallback voor browsers die geen video ondersteunen -->
+                <img src="images/hero-fallback.jpg" alt="BATRO Koelinstallaties" class="hero-img">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <h1 class="hero-title">Specialist in koeltechniek <span class="highlight">sinds 1999</span></h1>
+            <p class="hero-subtitle">Betrouwbare installatie en onderhoud van transport-koelinstallaties, airconditioning en laadkleppen</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary btn-lg">Service aanvragen</a>
+                <a href="#diensten" class="btn btn-outline btn-lg">Onze diensten</a>
+            </div>
+        </div>
+        
+        <div class="hero-scroll-indicator">
+            <span class="scroll-text">Scroll naar beneden</span>
+            <span class="scroll-icon"></span>
+        </div>
+        
+        <div class="hero-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1" d="M0,64L48,80C96,96,192,128,288,133.3C384,139,480,117,576,122.7C672,128,768,160,864,170.7C960,181,1056,171,1152,144C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+    <!-- USP Sectie -->
+    <section class="usps" id="usps">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Onze <span class="highlight">service</span> belofte</h2>
+                <p class="section-subtitle">BATRO staat altijd voor je klaar en schrijft service nog met hoofdletters!</p>
+            </div>
+            
+            <div class="usps-grid">
+                <div class="usp-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="usp-icon">
+                        <i class="fas fa-truck-pickup"></i>
+                    </div>
+                    <h3 class="usp-title">Ophaal- & bezorgservice</h3>
+                    <p class="usp-text">Uw auto, oplegger of ander voertuig kan worden opgehaald en teruggebracht.</p>
+                </div>
+                
+                <div class="usp-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="usp-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="usp-title">24-uurs service</h3>
+                    <p class="usp-text">Installaties en onderhoud binnen één dag voltooid.</p>
+                </div>
+                
+                <div class="usp-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="usp-icon">
+                        <i class="fas fa-toolbox"></i>
+                    </div>
+                    <h3 class="usp-title">Uitgebreide expertise</h3>
+                    <p class="usp-text">Wij ondersteunen alle merken koelmachines en laadkleppen.</p>
+                </div>
+            </div>
+            
+            <div class="stat-counter-container">
+                <div class="stat-counter" data-aos="fade-up">
+                    <span class="counter" data-target="24">0</span>
+                    <span class="counter-suffix">+</span>
+                    <h4 class="counter-title">Jaar ervaring</h4>
+                </div>
+                <div class="stat-counter" data-aos="fade-up" data-aos-delay="100">
+                    <span class="counter" data-target="1000">0</span>
+                    <span class="counter-suffix">+</span>
+                    <h4 class="counter-title">Tevreden klanten</h4>
+                </div>
+                <div class="stat-counter" data-aos="fade-up" data-aos-delay="200">
+                    <span class="counter" data-target="100">0</span>
+                    <span class="counter-suffix">%</span>
+                    <h4 class="counter-title">Klanttevredenheid</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Diensten Sectie -->
+    <section class="diensten" id="diensten">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Onze <span class="highlight">diensten</span></h2>
+                <p class="section-subtitle">Gespecialiseerd in het installeren en onderhouden van transport-koelinstallaties</p>
+            </div>
+            
+            <div class="diensten-slider">
+                <div class="diensten-slider-container">
+                    <!-- Dienst 1 -->
+                    <div class="dienst-card" data-aos="fade-up">
+                        <div class="dienst-image-container">
+                            <img src="images/laadkleppen.jpg" alt="Laadkleppen Service" class="dienst-image">
+                            <div class="dienst-overlay">
+                                <div class="dienst-ribbon">Laadkleppen</div>
+                            </div>
+                        </div>
+                        <div class="dienst-content">
+                            <h3 class="dienst-title">Laadkleppen</h3>
+                            <p class="dienst-text">Onderhoud, reparatie en installatie van laadkleppen voor alle soorten vrachtwagens. Wij zijn niet merkafhankelijk en kunnen storingen op locatie verhelpen.</p>
+                            <a href="#contact" class="btn btn-outline btn-sm dienst-button">Service aanvragen</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Dienst 2 -->
+                    <div class="dienst-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="dienst-image-container">
+                            <img src="images/transportkoeling.jpg" alt="Transportkoeling Service" class="dienst-image">
+                            <div class="dienst-overlay">
+                                <div class="dienst-ribbon">Transportkoeling</div>
+                            </div>
+                        </div>
+                        <div class="dienst-content">
+                            <h3 class="dienst-title">Transportkoeling</h3>
+                            <p class="dienst-text">Specialistische installatie en onderhoud van koelinstallaties voor transportvoertuigen. Wij zorgen dat uw koelketen intact blijft met betrouwbare apparatuur.</p>
+                            <a href="#contact" class="btn btn-outline btn-sm dienst-button">Service aanvragen</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Dienst 3 -->
+                    <div class="dienst-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="dienst-image-container">
+                            <img src="images/airconditioning.jpg" alt="Airconditioning Service" class="dienst-image">
+                            <div class="dienst-overlay">
+                                <div class="dienst-ribbon">Airconditioning</div>
+                            </div>
+                        </div>
+                        <div class="dienst-content">
+                            <h3 class="dienst-title">Airconditioning</h3>
+                            <p class="dienst-text">Professionele installatie en onderhoud van airconditioning systemen voor personen- en vrachtwagens. Comfortabel klimaat in elk voertuig.</p>
+                            <a href="#contact" class="btn btn-outline btn-sm dienst-button">Service aanvragen</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-arrow slider-prev" aria-label="Vorige dienst">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="slider-dots">
+                        <button class="slider-dot active" aria-label="Dienst 1"></button>
+                        <button class="slider-dot" aria-label="Dienst 2"></button>
+                        <button class="slider-dot" aria-label="Dienst 3"></button>
+                    </div>
+                    <button class="slider-arrow slider-next" aria-label="Volgende dienst">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="diensten-cta">
+                <a href="#over-ons" class="btn btn-primary btn-lg">Meer over onze diensten</a>
+            </div>
+        </div>
+    </section>
+    <!-- Over Ons Sectie -->
+    <section class="over-ons" id="over-ons">
+        <div class="container">
+            <div class="over-ons-grid">
+                <div class="over-ons-content" data-aos="fade-right">
+                    <div class="section-header text-left">
+                        <h2 class="section-title">Over <span class="highlight">BATRO</span></h2>
+                        <p class="section-subtitle">Al 24 jaar uw betrouwbare partner</p>
+                    </div>
+                    
+                    <div class="over-ons-text">
+                        <p>BATRO is al 24 jaar gespecialiseerd in het installeren en onderhouden van transport-koelinstallaties, airconditioning en laadkleppen voor personen- en vrachtwagens.</p>
+                        <p>Daarnaast zijn onze diensten niet merk afhankelijk en zijn wij in staat storingen op locaties te verhelpen. We lossen ook storingen aan laadkleppen op.</p>
+                    </div>
+                    
+                    <div class="over-ons-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Geen merkafhankelijkheid</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Service op locatie</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>24 jaar expertise</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Snelle service</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#geschiedenis" class="btn btn-outline btn-arrow">Lees meer over onze geschiedenis</a>
+                </div>
+                
+                <div class="over-ons-image-container" data-aos="fade-left">
+                    <div class="image-grid">
+                        <div class="image-item">
+                            <img src="images/over-ons-1.jpg" alt="BATRO Service" class="over-ons-image">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/over-ons-2.jpg" alt="BATRO Team" class="over-ons-image">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/over-ons-3.jpg" alt="BATRO Werkplaats" class="over-ons-image">
+                        </div>
+                        <div class="image-item">
+                            <img src="images/over-ons-4.jpg" alt="BATRO Transport" class="over-ons-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Proces Sectie -->
+    <section class="service-proces" id="service-proces">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ons <span class="highlight">service</span> proces</h2>
+                <p class="section-subtitle">In 4 stappen naar een perfecte oplossing</p>
+            </div>
+            
+            <div class="proces-timeline">
+                <div class="proces-stap" data-aos="fade-up">
+                    <div class="proces-nummer">1</div>
+                    <div class="proces-content">
+                        <h3 class="proces-titel">Contact</h3>
+                        <p class="proces-tekst">Neem contact met ons op via telefoon, e-mail of het contactformulier op onze website.</p>
+                    </div>
+                    <div class="proces-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                </div>
+                
+                <div class="proces-stap" data-aos="fade-up" data-aos-delay="100">
+                    <div class="proces-nummer">2</div>
+                    <div class="proces-content">
+                        <h3 class="proces-titel">Diagnose</h3>
+                        <p class="proces-tekst">Onze experts analyseren het probleem en stellen een passende oplossing voor.</p>
+                    </div>
+                    <div class="proces-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                
+                <div class="proces-stap" data-aos="fade-up" data-aos-delay="200">
+                    <div class="proces-nummer">3</div>
+                    <div class="proces-content">
+                        <h3 class="proces-titel">Service</h3>
+                        <p class="proces-tekst">We voeren de reparatie of het onderhoud uit, meestal binnen één werkdag.</p>
+                    </div>
+                    <div class="proces-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                </div>
+                
+                <div class="proces-stap" data-aos="fade-up" data-aos-delay="300">
+                    <div class="proces-nummer">4</div>
+                    <div class="proces-content">
+                        <h3 class="proces-titel">Oplevering</h3>
+                        <p class="proces-tekst">We zorgen dat alles perfect werkt en u weer zorgeloos verder kunt.</p>
+                    </div>
+                    <div class="proces-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="proces-garantie" data-aos="fade-up">
+                <div class="garantie-badge">
+                    <i class="fas fa-award"></i>
+                    <span>100% Tevredenheidsgarantie</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Sectie -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Wat onze <span class="highlight">klanten</span> zeggen</h2>
+                <p class="section-subtitle">Ervaringen van tevreden klanten</p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-slider-container">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">Al jaren betrouwbare partner voor onze transportvloot. Snelle service en altijd bereikbaar bij calamiteiten.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="images/avatar-1.jpg" alt="Klant Testimonial" class="avatar-img">
+                            </div>
+                            <div class="testimonial-info">
+                                <h4 class="author-name">Jan de Vries</h4>
+                                <p class="author-company">Transportbedrijf De Vries</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">Zeer tevreden over de snelle service. Binnen één dag was onze koelinstallatie gerepareerd en konden we weer op pad.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="images/avatar-2.jpg" alt="Klant Testimonial" class="avatar-img">
+                            </div>
+                            <div class="testimonial-info">
+                                <h4 class="author-name">Linda Bakker</h4>
+                                <p class="author-company">Bakker Logistiek</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">Professioneel team met verstand van zaken. Ze denken mee over de beste oplossing voor onze specifieke situatie.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="images/avatar-3.jpg" alt="Klant Testimonial" class="avatar-img">
+                            </div>
+                            <div class="testimonial-info">
+                                <h4 class="author-name">Mark Jansen</h4>
+                                <p class="author-company">Jansen Transport BV</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls testimonial-controls">
+                    <button class="slider-arrow slider-prev" aria-label="Vorige testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="slider-dots">
+                        <button class="slider-dot active" aria-label="Testimonial 1"></button>
+                        <button class="slider-dot" aria-label="Testimonial 2"></button>
+                        <button class="slider-dot" aria-label="Testimonial 3"></button>
+                    </div>
+                    <button class="slider-arrow slider-next" aria-label="Volgende testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Partners Sectie -->
+    <section class="partners" id="partners">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Onze <span class="highlight">partners</span></h2>
+                <p class="section-subtitle">Samenwerken met de beste in de branche</p>
+            </div>
+            
+            <div class="partners-grid">
+                <div class="partner-card" data-aos="fade-up">
+                    <img src="IMG\stek-main-logo.png" alt="STEK Partner" class="partner-logo">
+                    <div class="partner-hover">
+                        <h4 class="partner-name">STEK</h4>
+                        <p class="partner-desc">Gecertificeerd partner voor koeltechniek</p>
+                    </div>
+                </div>
+                
+                <div class="partner-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="IMG\logo_rai_2.png" alt="RAI Partner" class="partner-logo">
+                    <div class="partner-hover">
+                        <h4 class="partner-name">RAI</h4>
+                        <p class="partner-desc">Erkend lid van RAI Vereniging</p>
+                    </div>
+                </div>
+                
+                <!-- Ruimte voor andere partners -->
+                <div class="partner-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="partner-placeholder">
+                        <i class="fas fa-handshake"></i>
+                        <p>Word onze partner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Sectie -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="section-header text-left">
+                        <h2 class="section-title">Neem <span class="highlight">contact</span> op</h2>
+                        <p class="section-subtitle">We staan klaar om u te helpen</p>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Adres</h4>
+                                <p>Spaarpot Oost 18<br>5667KT Geldrop</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Telefoon</h4>
+                                <p>T: 040 280 173 0<br>F: 040 280 175 0</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>E-mail</h4>
+                                <p>info@batroinfo.nl</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Openingstijden</h4>
+                                <p>Ma-Vr: 8:00 - 17:00<br>Za-Zo: Gesloten</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-cta">
+                        <a href="tel:0402801730" class="btn btn-primary btn-icon">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>Bel direct</span>
+                        </a>
+                        <a href="https://wa.me/31402801730" class="btn btn-whatsapp btn-icon">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-header">
+                            <h3>Stuur ons een bericht</h3>
+                            <p>Wij reageren binnen 24 uur</p>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="name">Naam *</label>
+                            <input type="text" id="name" name="name" required placeholder="Uw naam">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" name="email" required placeholder="Uw e-mailadres">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Telefoon</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Uw telefoonnummer">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Onderwerp *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Selecteer een onderwerp</option>
+                                <option value="laadkleppen">Laadkleppen</option>
+                                <option value="transportkoeling">Transportkoeling</option>
+                                <option value="airconditioning">Airconditioning</option>
+                                <option value="anders">Anders</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Bericht *</label>
+                            <textarea id="message" name="message" required placeholder="Uw bericht"></textarea>
+                        </div>
+                        
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy">Ik ga akkoord met de <a href="#" class="privacy-link">privacyverklaring</a></label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-submit">Versturen</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map-container" data-aos="fade-up">
+                <div class="map" id="map">
+                    <!-- Hier komt de Google Maps embed of een interactieve kaart met JavaScript -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.232!2d5.1234!3d51.5678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDM0JzA0LjEiTiA1wrAwNycyNC4yIkU!5e0!3m2!1snl!2snl!4v1712600000000!5m2!1snl!2snl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+                <div class="map-overlay">
+                    <div class="map-card">
+                        <h3>Kom langs</h3>
+                        <p>Spaarpot Oost 18<br>5667 KT Geldrop</p>
+                        <a href="https://goo.gl/maps/xxxxxxxxxx" target="_blank" class="btn btn-outline btn-sm">Routebeschrijving</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Sectie -->
+    <section class="cta" id="cta">
+        <div class="container">
+            <div class="cta-container" data-aos="zoom-in">
+                <div class="cta-content">
+                    <h2 class="cta-title">Klaar voor betrouwbare koeltechniek?</h2>
+                    <p class="cta-text">Neem vandaag nog contact met ons op voor snelle service en expertise</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="tel:0402801730" class="btn btn-white btn-lg">Bel ons: 040 280 173 0</a>
+                    <a href="#contact" class="btn btn-outline-white btn-lg">Stuur een bericht</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="footer-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0a2463" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,229.3C672,245,768,267,864,261.3C960,256,1056,224,1152,208C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+        
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="images/batro-logo-white.svg" alt="BATRO Logo" class="logo-img-footer">
+                    </div>
+                    <p class="footer-tagline">Aircondioning - Koeltechniek - Transportkoeling</p>
+                    <p class="footer-desc">Al 24 jaar uw betrouwbare partner voor koeltechniek en transportkoeling.</p>
+                    <div class="footer-socials">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-nav">
+                    <h3 class="footer-heading">Pagina's</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#diensten">Diensten</a></li>
+                        <li><a href="#over-ons">Over Ons</a></li>
+                        <li><a href="#geschiedenis">Geschiedenis</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-diensten">
+                    <h3 class="footer-heading">Diensten</h3>
+                    <ul class="footer-links">
+                        <li><a href="#diensten">Laadkleppen</a></li>
+                        <li><a href="#diensten">Transportkoeling</a></li>
+                        <li><a href="#diensten">Airconditioning</a></li>
+                        <li><a href="#contact">Service aanvragen</a></li>
+                        <li><a href="#contact">Onderhoud</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3 class="footer-heading">Contact</h3>
+                    <ul class="footer-contact-details">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Spaarpot Oost 18, 5667 KT Geldrop</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>T: 040 280 173 0</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-fax"></i>
+                            <span>F: 040 280 175 0</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@batroinfo.nl</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Ma-Vr: 8:00 - 17:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 BATRO. Alle rechten voorbehouden.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#" class="legal-link">Privacyverklaring</a>
+                    <a href="#" class="legal-link">Cookiebeleid</a>
+                    <a href="#" class="legal-link">Algemene voorwaarden</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Sticky Service Knop -->
+    <div class="service-sticky" id="serviceSticky">
+        <button class="service-button" aria-label="Direct service aanvragen">
+            <i class="fas fa-tools"></i>
+            <span>Service nodig?</span>
+        </button>
+        
+        <div class="service-popup">
+            <div class="popup-header">
+                <h3>Direct contact</h3>
+                <button class="popup-close" aria-label="Sluiten">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="popup-body">
+                <a href="tel:0402801730" class="popup-action">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Bellen</span>
+                </a>
+                <a href="mailto:info@batroinfo.nl" class="popup-action">
+                    <i class="fas fa-envelope"></i>
+                    <span>E-mail</span>
+                </a>
+                <a href="https://wa.me/31402801730" class="popup-action">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Terug naar boven">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    
+    <!-- Cookie Consent -->
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <p>Deze website gebruikt cookies om uw ervaring te verbeteren. Door gebruik te maken van onze website gaat u akkoord met ons <a href="#">cookiebeleid</a>.</p>
+            <div class="cookie-buttons">
+                <button class="btn btn-outline btn-sm cookie-btn" id="cookieReject">Weigeren</button>
+                <button class="btn btn-primary btn-sm cookie-btn" id="cookieAccept">Accepteren</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10"/>
+            </svg>
+            <span class="loader-text">BATRO</span>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
